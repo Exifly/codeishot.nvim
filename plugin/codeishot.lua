@@ -1,0 +1,10 @@
+-- Title:        Codeishot
+-- Description:  Share your code snippets around the world.
+-- Last Change:  7 January 2024
+-- Maintainer:   Giovanni D'Andrea <https://github.com/gdjohn4s>
+-- Maintainer:   Flavio Adamo <https://github.com/flavioadamo>
+-- Maintainer:   Gianluca Andretta <https://github.com/ndrt>
+--
+-- Prevents the plugin from being loaded multiple times. If the loaded
+-- variable exists, do nothing more. Otherwise, assign the loaded
+-- variable and continue running this instance of the plugin.
