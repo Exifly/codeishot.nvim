@@ -1,6 +1,6 @@
 local http = require('plenary.curl')
-local endpoint = "http://localhost:9002/api/snippets/"
-local base_url = "http://localhost:3000/%s"
+local endpoint = "https://api.codeishot.com/api/snippets/"
+local base_url = "https://codeishot.com/%s"
 
 local M = {}
 
